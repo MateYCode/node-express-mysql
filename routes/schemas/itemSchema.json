@@ -1,0 +1,11 @@
+{
+    "id": "/item",
+    "type": "object",
+    "properties": {
+      "id": {"type": "integer"},
+      "name": {"type": "string"},
+      "languages": {"type": "array","minItems": 1}
+    },
+    "required":["id","name","languages"],
+    "additionalProperties": false
+  }
